@@ -38,6 +38,6 @@ int main() {
     cout << "Enter a string: ";
     cin.ignore(); // To ignore the newline character left in the buffer
     getline(cin, str);
-    cout << setw(50) << setiosflags(ios::left) << str << endl;
+    cout << setw(50)<< str << endl;
     return 0;
     }
